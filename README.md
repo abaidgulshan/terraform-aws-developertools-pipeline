@@ -17,11 +17,11 @@ Table of Contents
 Before you begin, make sure you have the following:
 
 1. **AWS Credentials and Configure**: Ensure you have AWS credentials configured with the necessary permissions to create resources.
-2. **Terraform**: Install Terraform on your machine. Refer to the [official Terraform installation guide](https://learn.hashicorp.com/tutorials/terraform/install-cli) for instructions.
-3. **Create AWS CodeCommit Repository**: Create AWS CodeCommit Repo manually from AWS web Console as for now AWS CodeCommit Terraform provider currently doesn't support branch creation.
+2. **Terraform**: Install Terraform on your machine. Refer to the [official Terraform installation guide](https://learn.hashicorp.com/tutorials/terraform/install-cli) for instructions. :white_check_mark:
+3. **Create AWS CodeCommit Repository**: Create AWS CodeCommit Repo manually from AWS web Console as for now AWS CodeCommit Terraform provider currently doesn't support branch creation. :white_check_mark:
 4. **Create Terraform Backend**: Go to the Terraform Backend directory and create the Terraform backend. Refer to the [Create Terraform Backend](https://github.com/abaidgulshan/create-terraform-backend) for instructions. Copy names of **s3 bucket** and **DynamoDB Table**
 5. **AWS SNS topic and approval emails**: 
-  * Configure an SNS topic: Create a topic specific to actions requiring approval (e.g., "terraform-approval"). Copy ARN of **SNS Topic**
+  * Configure an SNS topic: Create a topic specific to actions requiring approval (e.g., "terraform-approval"). Copy ARN of **SNS Topic** :white_check_mark:
   * Subscribe email addresses: Add relevant email addresses as subscribers to receive notifications.
 
 ## Usage 📋
